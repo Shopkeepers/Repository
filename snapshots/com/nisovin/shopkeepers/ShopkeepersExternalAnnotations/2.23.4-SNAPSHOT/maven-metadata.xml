@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata modelVersion="1.1.0">
+  <groupId>com.nisovin.shopkeepers</groupId>
+  <artifactId>ShopkeepersExternalAnnotations</artifactId>
+  <versioning>
+    <lastUpdated>20250308155120</lastUpdated>
+    <snapshot>
+      <timestamp>20250308.155120</timestamp>
+      <buildNumber>1</buildNumber>
+    </snapshot>
+    <snapshotVersions>
+      <snapshotVersion>
+        <extension>pom</extension>
+        <value>2.23.4-20250308.155120-1</value>
+        <updated>20250308155120</updated>
+      </snapshotVersion>
+      <snapshotVersion>
+        <extension>module</extension>
+        <value>2.23.4-20250308.155120-1</value>
+        <updated>20250308155120</updated>
+      </snapshotVersion>
+      <snapshotVersion>
+        <extension>jar</extension>
+        <value>2.23.4-20250308.155120-1</value>
+        <updated>20250308155120</updated>
+      </snapshotVersion>
+    </snapshotVersions>
+  </versioning>
+  <version>2.23.4-SNAPSHOT</version>
+</metadata>

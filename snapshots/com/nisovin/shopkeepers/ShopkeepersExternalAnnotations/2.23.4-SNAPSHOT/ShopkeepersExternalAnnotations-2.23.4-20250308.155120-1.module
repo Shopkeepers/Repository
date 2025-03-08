@@ -1,0 +1,76 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.nisovin.shopkeepers",
+    "module": "ShopkeepersExternalAnnotations",
+    "version": "2.23.4-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.13"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.eclipse.jdt",
+          "module": "org.eclipse.jdt.annotation",
+          "version": {
+            "requires": "2.3.0"
+          }
+        },
+        {
+          "group": "com.vegardit.no-npe",
+          "module": "no-npe-eea-java-21",
+          "version": {
+            "requires": "1.0.3"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ShopkeepersExternalAnnotations-2.23.4-SNAPSHOT.jar",
+          "url": "ShopkeepersExternalAnnotations-2.23.4-SNAPSHOT.jar",
+          "size": 36577,
+          "sha512": "7de61d99daa6b353591735c1cf262b33ae6c34802a2c7d6ee42efca7b5bae8c3a1f1b092f4c26968746ba7199a028045d02d60db320f684fd0771fcbe47d6c44",
+          "sha256": "723a4820ce1f8f6a34f76cb5acc22500b3915052452469665ef0b8790428f284",
+          "sha1": "4228c3e28f34d5522427b34d2b1866c746206cad",
+          "md5": "ba886c16a05a65af324cccffbdb9f28c"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "ShopkeepersExternalAnnotations-2.23.4-SNAPSHOT.jar",
+          "url": "ShopkeepersExternalAnnotations-2.23.4-SNAPSHOT.jar",
+          "size": 36577,
+          "sha512": "7de61d99daa6b353591735c1cf262b33ae6c34802a2c7d6ee42efca7b5bae8c3a1f1b092f4c26968746ba7199a028045d02d60db320f684fd0771fcbe47d6c44",
+          "sha256": "723a4820ce1f8f6a34f76cb5acc22500b3915052452469665ef0b8790428f284",
+          "sha1": "4228c3e28f34d5522427b34d2b1866c746206cad",
+          "md5": "ba886c16a05a65af324cccffbdb9f28c"
+        }
+      ]
+    }
+  ]
+}

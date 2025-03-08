@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+  <groupId>com.nisovin.shopkeepers</groupId>
+  <artifactId>ShopkeepersMain</artifactId>
+  <versioning>
+    <latest>2.23.4-SNAPSHOT</latest>
+    <versions>
+      <version>2.23.4-SNAPSHOT</version>
+    </versions>
+    <lastUpdated>20250308155144</lastUpdated>
+  </versioning>
+</metadata>
