@@ -1,4 +1,4 @@
-# Sgopkeepers Maven Repository
+# Shopkeepers Maven Repository
 
 Maven repository for artifacts of the [Shopkeepers plugin](https://github.com/Shopkeepers/Shopkeepers).
 
