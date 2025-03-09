@@ -3,26 +3,26 @@
   <groupId>com.nisovin.shopkeepers</groupId>
   <artifactId>Shopkeepers</artifactId>
   <versioning>
-    <lastUpdated>20250308155120</lastUpdated>
+    <lastUpdated>20250309143344</lastUpdated>
     <snapshot>
-      <timestamp>20250308.155120</timestamp>
-      <buildNumber>1</buildNumber>
+      <timestamp>20250309.143344</timestamp>
+      <buildNumber>2</buildNumber>
     </snapshot>
     <snapshotVersions>
       <snapshotVersion>
-        <extension>jar</extension>
-        <value>2.23.4-20250308.155120-1</value>
-        <updated>20250308155120</updated>
+        <extension>pom</extension>
+        <value>2.23.4-20250309.143344-2</value>
+        <updated>20250309143344</updated>
       </snapshotVersion>
       <snapshotVersion>
-        <extension>pom</extension>
-        <value>2.23.4-20250308.155120-1</value>
-        <updated>20250308155120</updated>
+        <extension>jar</extension>
+        <value>2.23.4-20250309.143344-2</value>
+        <updated>20250309143344</updated>
       </snapshotVersion>
       <snapshotVersion>
         <extension>module</extension>
-        <value>2.23.4-20250308.155120-1</value>
-        <updated>20250308155120</updated>
+        <value>2.23.4-20250309.143344-2</value>
+        <updated>20250309143344</updated>
       </snapshotVersion>
     </snapshotVersions>
   </versioning>
