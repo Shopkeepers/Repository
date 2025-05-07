@@ -1,0 +1,76 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.nisovin.shopkeepers",
+    "module": "ShopkeepersExternalAnnotations",
+    "version": "2.23.5",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.13"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.eclipse.jdt",
+          "module": "org.eclipse.jdt.annotation",
+          "version": {
+            "requires": "2.3.0"
+          }
+        },
+        {
+          "group": "com.vegardit.no-npe",
+          "module": "no-npe-eea-java-21",
+          "version": {
+            "requires": "1.3.6-SNAPSHOT"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ShopkeepersExternalAnnotations-2.23.5.jar",
+          "url": "ShopkeepersExternalAnnotations-2.23.5.jar",
+          "size": 35628,
+          "sha512": "e7092c69f49e9dcef7bc09c2928f81e013c743b51e768b3a3e963959b549349335a706bc919ff66053448d82c92d2c1140897c665c59dbddd97a14e60709c975",
+          "sha256": "968b1da2405669396cda922aa7c24420a20a1e0701bbec3c89b6b830d2eeb58c",
+          "sha1": "dada02d5c0b367b2430cff46034ad775ecdb4644",
+          "md5": "5f5b0cef82378ae9a184b1d156305f44"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "ShopkeepersExternalAnnotations-2.23.5.jar",
+          "url": "ShopkeepersExternalAnnotations-2.23.5.jar",
+          "size": 35628,
+          "sha512": "e7092c69f49e9dcef7bc09c2928f81e013c743b51e768b3a3e963959b549349335a706bc919ff66053448d82c92d2c1140897c665c59dbddd97a14e60709c975",
+          "sha256": "968b1da2405669396cda922aa7c24420a20a1e0701bbec3c89b6b830d2eeb58c",
+          "sha1": "dada02d5c0b367b2430cff46034ad775ecdb4644",
+          "md5": "5f5b0cef82378ae9a184b1d156305f44"
+        }
+      ]
+    }
+  ]
+}
