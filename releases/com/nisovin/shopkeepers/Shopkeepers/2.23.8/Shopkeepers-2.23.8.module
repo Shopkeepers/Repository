@@ -1,0 +1,98 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.nisovin.shopkeepers",
+    "module": "Shopkeepers",
+    "version": "2.23.8",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.14"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "com.nisovin.shopkeepers",
+          "module": "ShopkeepersMain",
+          "version": {
+            "requires": "2.23.8"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "Shopkeepers-2.23.8.jar",
+          "url": "Shopkeepers-2.23.8.jar",
+          "size": 2115951,
+          "sha512": "fe170cbffaf2a0a5dac93812a687c19045b97d9bf798e200f53f717e88579e860b7bccfd7f6dc919e14ff5bd566202d169ba208f4f4b0dc7c10a7694dd8657f6",
+          "sha256": "18203e6b57db8e70a4278509cb039820267792afcb13c030a0e3ce20dabc7d01",
+          "sha1": "11a6002ee6cd77112c904875079628e515849022",
+          "md5": "653f20b2c038977729f361a7c6d9cbc6"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "com.nisovin.shopkeepers",
+          "module": "ShopkeepersMain",
+          "version": {
+            "requires": "2.23.8"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "Shopkeepers-2.23.8.jar",
+          "url": "Shopkeepers-2.23.8.jar",
+          "size": 2115951,
+          "sha512": "fe170cbffaf2a0a5dac93812a687c19045b97d9bf798e200f53f717e88579e860b7bccfd7f6dc919e14ff5bd566202d169ba208f4f4b0dc7c10a7694dd8657f6",
+          "sha256": "18203e6b57db8e70a4278509cb039820267792afcb13c030a0e3ce20dabc7d01",
+          "sha1": "11a6002ee6cd77112c904875079628e515849022",
+          "md5": "653f20b2c038977729f361a7c6d9cbc6"
+        }
+      ]
+    },
+    {
+      "name": "shadowRuntimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "shadowed",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "Shopkeepers-2.23.8.jar",
+          "url": "Shopkeepers-2.23.8.jar",
+          "size": 2115951,
+          "sha512": "fe170cbffaf2a0a5dac93812a687c19045b97d9bf798e200f53f717e88579e860b7bccfd7f6dc919e14ff5bd566202d169ba208f4f4b0dc7c10a7694dd8657f6",
+          "sha256": "18203e6b57db8e70a4278509cb039820267792afcb13c030a0e3ce20dabc7d01",
+          "sha1": "11a6002ee6cd77112c904875079628e515849022",
+          "md5": "653f20b2c038977729f361a7c6d9cbc6"
+        }
+      ]
+    }
+  ]
+}

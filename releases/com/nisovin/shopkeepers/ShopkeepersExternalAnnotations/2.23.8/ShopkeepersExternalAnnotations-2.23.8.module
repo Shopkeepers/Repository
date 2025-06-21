@@ -1,0 +1,76 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.nisovin.shopkeepers",
+    "module": "ShopkeepersExternalAnnotations",
+    "version": "2.23.8",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.14"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.eclipse.jdt",
+          "module": "org.eclipse.jdt.annotation",
+          "version": {
+            "requires": "2.3.0"
+          }
+        },
+        {
+          "group": "com.vegardit.no-npe",
+          "module": "no-npe-eea-java-21",
+          "version": {
+            "requires": "1.3.5"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ShopkeepersExternalAnnotations-2.23.8.jar",
+          "url": "ShopkeepersExternalAnnotations-2.23.8.jar",
+          "size": 36119,
+          "sha512": "8ec4da1d13f5fec54d11afff13530a0f30992d8789585cfd9fcbb3a79c7121b1228c09923f657621fbb3f51cd81ca5b7c7004ea69045710b0aeded662cf8aac5",
+          "sha256": "c630493df1c9e9d0231224a9c032e0a71d41a20ec4b767c146fad9c016789772",
+          "sha1": "1b8464a1bd052384647398bb3f49d29edca41b7c",
+          "md5": "8a46be6bd86b80873d2a7fc81f18f949"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "ShopkeepersExternalAnnotations-2.23.8.jar",
+          "url": "ShopkeepersExternalAnnotations-2.23.8.jar",
+          "size": 36119,
+          "sha512": "8ec4da1d13f5fec54d11afff13530a0f30992d8789585cfd9fcbb3a79c7121b1228c09923f657621fbb3f51cd81ca5b7c7004ea69045710b0aeded662cf8aac5",
+          "sha256": "c630493df1c9e9d0231224a9c032e0a71d41a20ec4b767c146fad9c016789772",
+          "sha1": "1b8464a1bd052384647398bb3f49d29edca41b7c",
+          "md5": "8a46be6bd86b80873d2a7fc81f18f949"
+        }
+      ]
+    }
+  ]
+}
