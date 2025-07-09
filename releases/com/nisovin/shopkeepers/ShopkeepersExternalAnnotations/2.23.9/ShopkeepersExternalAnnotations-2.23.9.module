@@ -1,0 +1,76 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.nisovin.shopkeepers",
+    "module": "ShopkeepersExternalAnnotations",
+    "version": "2.23.9",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.14"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.eclipse.jdt",
+          "module": "org.eclipse.jdt.annotation",
+          "version": {
+            "requires": "2.3.0"
+          }
+        },
+        {
+          "group": "com.vegardit.no-npe",
+          "module": "no-npe-eea-java-21",
+          "version": {
+            "requires": "1.3.5"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ShopkeepersExternalAnnotations-2.23.9.jar",
+          "url": "ShopkeepersExternalAnnotations-2.23.9.jar",
+          "size": 36120,
+          "sha512": "c0fdb77b5d0e145c6d20bac179dc242f4156f37f8f36cd62f46feb185c83d8dfa9d1acbc4bbe394bdb51d8226b5d92dd4847519be8ea8944155f41abde41a86a",
+          "sha256": "bf3a42346f1532c34d910155442ce52e1b7b2e66b9757fe0ed98577fd77eb724",
+          "sha1": "2d9533b57c0dd084b8d9c97175e7aba0f62d8c3e",
+          "md5": "15a2892419c5daf76d5431dc9f8ce9d9"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "ShopkeepersExternalAnnotations-2.23.9.jar",
+          "url": "ShopkeepersExternalAnnotations-2.23.9.jar",
+          "size": 36120,
+          "sha512": "c0fdb77b5d0e145c6d20bac179dc242f4156f37f8f36cd62f46feb185c83d8dfa9d1acbc4bbe394bdb51d8226b5d92dd4847519be8ea8944155f41abde41a86a",
+          "sha256": "bf3a42346f1532c34d910155442ce52e1b7b2e66b9757fe0ed98577fd77eb724",
+          "sha1": "2d9533b57c0dd084b8d9c97175e7aba0f62d8c3e",
+          "md5": "15a2892419c5daf76d5431dc9f8ce9d9"
+        }
+      ]
+    }
+  ]
+}
